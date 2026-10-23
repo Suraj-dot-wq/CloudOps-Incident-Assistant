@@ -106,27 +106,27 @@ This allows saved records to remain available when the application container is 
 ### 1. Dashboard Overview
 View system metrics, incident detection status, and recorded incidents.
 
-![CloudOps Incident Assistant Dashboard](screenshots/overview.png)
+<img width="400" alt="Screenshot 2026-10-23 130906" src="https://github.com/user-attachments/assets/f267973d-d80f-427e-9fce-f204034229fc" />
 
 ### 2. AWS EC2 Health
 Monitor the EC2 instance state and AWS system and instance status checks.
 
-![AWS EC2 Health Dashboard](screenshots/dashboard.png)
+<img width="400" alt="Screenshot 2026-10-23 130921" src="https://github.com/user-attachments/assets/8775ef72-9462-49d5-9ea0-88d3bd6c8d62" />
 
 ### 3. System Metrics and Incident History
 Track CPU, memory, and disk usage, review alert status, and inspect previously recorded incidents.
 
-![System Metrics and Incident History](screenshots/incident-history.png)
+<img width="400" alt="Screenshot 2026-10-23 130945" src="https://github.com/user-attachments/assets/510f0784-b0a7-4fe7-8c54-25aa8be05360" />
 
 ### 4. Incident Log Analyzer and Gemma 4 AI
 Analyze application or infrastructure error logs and get AI-assisted troubleshooting recommendations. Recommendations require human review.
 
-![Incident Log Analyzer and Gemma 4 AI](screenshots/ai-incident-analysis.png)
+<img width="400" alt="Screenshot 2026-10-23 114017" src="https://github.com/user-attachments/assets/89c31ff1-f661-4692-a62b-15488925982a" />
 
 ### 5. AWS CloudWatch CPU Metrics
 View recent EC2 CPU utilization data retrieved from AWS CloudWatch.
 
-![AWS CloudWatch CPU Metrics](screenshots/cloudwatch-metrics.png)
+<img width="400" alt="Screenshot 2026-10-23 130935" src="https://github.com/user-attachments/assets/a68da93f-4796-44b3-b728-0df2d0cab693" />
 
 ## 🚀 Deployment
 
