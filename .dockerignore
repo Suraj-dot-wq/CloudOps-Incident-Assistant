@@ -1,0 +1,13 @@
+.git
+.gitignore
+.env
+.env.*
+.venv
+venv
+__pycache__
+*.pyc
+*.backup
+*.bak
+*.pre-cloudwatch-backup
+*.db
+*.log

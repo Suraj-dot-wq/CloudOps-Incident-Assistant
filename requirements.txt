@@ -1,0 +1,5 @@
+streamlit
+psutil
+requests
+boto3
+google-genai

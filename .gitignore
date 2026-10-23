@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+
+# Backup files
+*.backup
+*.bak
+*.pre-cloudwatch-backup
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases and logs
+*.db
+*.log
+
+# OS/editor files
+.DS_Store
+.vscode/
