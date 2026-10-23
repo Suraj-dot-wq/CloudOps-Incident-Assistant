@@ -6,36 +6,6 @@ CloudOps Incident Assistant is a cloud-hosted application that helps investigate
 
 Built for the **Hacktoberfest HackDay Bengaluru × AWS Student Builder Group** at Atria Institute of Technology.
 
-## 📸 Application Screenshots
-
-### 1. Application Overview
-
-![CloudOps Incident Assistant overview](screenshots/overview.png)
-
-### 2. AWS EC2 Health
-
-Displays the EC2 instance state and AWS system and instance status checks.
-
-![AWS EC2 Health Dashboard](screenshots/dashboard.png)
-
-### 3. Incident Log Analyzer and Gemma 4 AI
-
-Analyze application or infrastructure error logs and request AI-assisted troubleshooting recommendations.
-
-![Incident Log Analyzer and Gemma 4 AI](screenshots/ai-incident-analysis.png)
-
-### 4. System Metrics and Incident History
-
-Monitor CPU, memory, and disk utilization, review configured alert thresholds, and view saved incident records.
-
-![System Metrics and Incident History](screenshots/incident-history.png)
-
-### 5. AWS CloudWatch CPU Metrics
-
-View historical EC2 CPU utilization using CloudWatch datapoints.
-
-![CloudWatch CPU Metrics](screenshots/cloudwatch-metrics.png)
-
 ## ✨ Key Features
 
 - **AI-powered analysis:** Uses a hosted Gemma 4 model to help explain incidents and recommend troubleshooting steps.
@@ -130,6 +100,33 @@ The database directory is mounted to a Docker named volume:
 This allows saved records to remain available when the application container is restarted or recreated, provided the volume is retained.
 
 **Validation:** Four existing incident records remained available after a container restart during testing.
+
+## 📸 Application Screenshots
+
+### 1. Dashboard Overview
+View system metrics, incident detection status, and recorded incidents.
+
+![CloudOps Incident Assistant Dashboard](screenshots/overview.png)
+
+### 2. AWS EC2 Health
+Monitor the EC2 instance state and AWS system and instance status checks.
+
+![AWS EC2 Health Dashboard](screenshots/dashboard.png)
+
+### 3. System Metrics and Incident History
+Track CPU, memory, and disk usage, review alert status, and inspect previously recorded incidents.
+
+![System Metrics and Incident History](screenshots/incident-history.png)
+
+### 4. Incident Log Analyzer and Gemma 4 AI
+Analyze application or infrastructure error logs and get AI-assisted troubleshooting recommendations. Recommendations require human review.
+
+![Incident Log Analyzer and Gemma 4 AI](screenshots/ai-incident-analysis.png)
+
+### 5. AWS CloudWatch CPU Metrics
+View recent EC2 CPU utilization data retrieved from AWS CloudWatch.
+
+![AWS CloudWatch CPU Metrics](screenshots/cloudwatch-metrics.png)
 
 ## 🚀 Deployment
 
